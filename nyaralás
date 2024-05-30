@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hajóút Élmények</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Hajóút Élmények</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://www.costacruises.eu/f-f/me.html#%7B!tag=destinationTag%7DdestinationIds=ME">Costa cruise <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="helyszinek.html">Helyszínek</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="costasmeralda.html">Costa Smeralda hajó</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://www.costacruises.eu/experience/cabin.html">Kabin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Nyári Hajóút</h1>
+    
+  </div>
+
+  <div id="elmenyek" class="row">
+    <div class="col-md-6 text-center">
+      <h2>Kalandok és Felfedezések</h2>
+      <p>Az út során számos lenyűgöző helyszínt fedeztünk fel, gyönyörű tengerpartokat és kulturális látnivalókat.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <h2>Gasztronómiai Élvezetek</h2>
+      <p>A hajóút alatt különleges ételeket kóstoltunk meg, a helyi ízek és nemzetközi konyha csodálatos kombinációját élvezhettük.</p>
+    </div>
+  </div>
+
+  <div id="galeria" class="mt-5">
+    <h2 class="text-center">Nyaralás</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Helyszínek.PNG"class="card-img-top" alt="Tengerpart">
+          <div class="card-body">
+            <h5 class="card-title text-center" ><a target="_blank" href="https://www.costacruises.eu/cruises/GOA07A0V/SM07240607.html">Helyszínek</a></h5>
+            <p class="card-text text-center ">A hajóút alatt sok helyszínt meglátogattunk köztük Marseilt, Barcelonát, Rómát és még több gyönyörű helyszínt ahol megismerhetük a helyi szokásokat.<p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Costa Smerlada Hajó.jpg" class="card-img-top" alt="Hajó">
+          <div class="card-body">
+            <h5 class="card-title text-center"><a target="_blank" href="https://www.costacruises.eu/fleet/smeralda.html">Costa Smeralda hajó</a></h5>
+            <p class="card-text text-center">A hajó, amely egy kisebb városként szolgált nekünk, volt benne étterem, bárok, konditerem, boltok, kaszínó, színház is, amit csak az ember szeme kívánt.</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Kabin.jpg" class="card-img-top" alt="Kikötő">
+          <div class="card-body">
+            <h5 class="card-title text-center" ><a target="_blank" href="https://www.costacruises.eu/experience/cabin.html">Kabin</a></h5>
+            <p class="card-text text-center" >A kabin, amely a hajóút alatt a kényelmes, modern és jól felszerelt kis otthonunk volt, amely még egy kicsi erkélyt is tartalmazott, amely gyönyörű kilátást szolgált nekünk.</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
